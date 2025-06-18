@@ -1,4 +1,11 @@
-let genero = Number(prompt("Qual é seu gênero?"))
+let genero = prompt("Qual é seu gênero? (Masculino ou Feminino)")
 let altura = Number(prompt("Qual sua altura?"))
-let pesoideal4 = (72.7 * altura) - 44.7
-let pesoideal4 = (72.7*altura)- 58
+let pesoidealF = (62.1 * altura) - 44.7
+let pesoidealM = (72.7* altura) - 58
+
+if(genero == "masculino"){
+    alert("seu peso ideal é" + pesoidealM)
+}
+if(genero == "feminino"){
+    alert("seu peso ideal é" + pesoidealF)
+}
